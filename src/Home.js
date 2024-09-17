@@ -1,5 +1,6 @@
 // state hook
 import { useState } from "react";
+import Bloglist from "./Bloglist";
 
 const Home = () => {
   // using the useState hook to create a state variable
@@ -13,25 +14,32 @@ const Home = () => {
     {
       title: "Welcome Party",
       body: "Welcome to the party",
-      author: "John",
+      author: "Mario",
       id: 2,
     },
     {
       title: "Web dev tips",
       body: "Here are some tips for web dev",
-      author: "Sam",
+      author: "Billy",
       id: 3,
+    },
+    {
+      title: "Disney Princess",
+      body: "How to save the princess",
+      author: "Mario",
+      id: 4,
     },
   ]);
 
   return (
     <div className="home">
-      {blogs.map((blog) => (
-        <div className="blog-preview" key={blog.id}>
-          <h2>{blog.title}</h2>
-          <p>Written by {blog.author}</p>
-        </div>
-      ))}
+      {/* using props to pass data to bloglist */}
+      <Bloglist blogs={blogs} title="All Blogs!" />
+      {/* filter Mario's blogs display */}
+      <Bloglist
+        blogs={blogs.filter((blog) => blog.author === "Mario")}
+        title={"Mario's Blogs"}
+      />
     </div>
   );
 };
