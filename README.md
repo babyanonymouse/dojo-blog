@@ -21,3 +21,4 @@
 - `sfc` - basic starting emmet
 - opt to delete App.css and use index.css
   - main editing area is javascript
+- index.css is global no need to import, app.css is specific
