@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "This is my first blog post. I'm so excited to start blogging!",
+      "author": "John Doe",
+      "id": 1
+    },
+    {
+      "title": "Opening Party!",
+      "body": "We're having a party to celebrate the opening of our new store. Come join us!",
+      "author": "Jane Doe",
+      "id": 2
+    },
+    {
+      "title": "New Product Launch",
+      "body": "We're launching a new product next week. Stay tuned for more details!",
+      "author": "John Smith",
+      "id": 3
+    }
+  ]
+}

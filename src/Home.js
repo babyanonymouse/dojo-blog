@@ -1,5 +1,5 @@
-// state hook
-import { useState } from "react";
+// usestate and useffect hook
+import { useState, useEffect } from "react";
 import Bloglist from "./Bloglist";
 
 const Home = () => {
@@ -35,6 +35,11 @@ const Home = () => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
     changeBlogs(newBlogs);
   };
+
+  // useEffect hook
+  useEffect(() => {
+    console.log("use effect ran");
+  }, []);
 
   return (
     <div className="home">
