@@ -31,10 +31,15 @@ const Home = () => {
     },
   ]);
 
+  const handleDelete = (id) => {
+    const newBlogs = blogs.filter((blog) => blog.id !== id);
+    changeBlogs(newBlogs);
+  };
+
   return (
     <div className="home">
       {/* using props to pass data to bloglist */}
-      <Bloglist blogs={blogs} title="All Blogs!" />
+      <Bloglist blogs={blogs} title="All Blogs!" handleDelete={handleDelete} />
       {/* filter Mario's blogs display */}
       <Bloglist
         blogs={blogs.filter((blog) => blog.author === "Mario")}
