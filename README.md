@@ -15,6 +15,9 @@
 - `npm run start` - start react server
 - `npx json-server --watch data/db.json --port:8800` - watch a database json file
 
+### JSON Server 
+- 
+
 ### Notice
 
 - remove unnecessary files and components eg logo.svg, etc as shown in this project

@@ -17,6 +17,30 @@
       "body": "We're launching a new product next week. Stay tuned for more details!",
       "author": "John Smith",
       "id": 3
+    },
+    {
+      "title": "My new Website",
+      "body": "this is a new website",
+      "author": "Sam",
+      "id": 4
+    },
+    {
+      "title": "Welcome Party",
+      "body": "Welcome to the party",
+      "author": "Mario",
+      "id": 5
+    },
+    {
+      "title": "Web dev tips",
+      "body": "Here are some tips for web dev",
+      "author": "Billy",
+      "id": 6
+    },
+    {
+      "title": "Disney Princess",
+      "body": "How to save the princess",
+      "author": "Mario",
+      "id": 7
     }
   ]
 }
