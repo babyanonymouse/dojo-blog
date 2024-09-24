@@ -20,6 +20,10 @@
 - install JSON server locally
   - `npx json-server --watch data/db.json --port 8800` - watch the server
 
+### The React Router
+
+- installation - `npm install react-router-dom@5` (we're using version 5)
+
 ### Notice
 
 - remove unnecessary files and components eg logo.svg, etc as shown in this project
