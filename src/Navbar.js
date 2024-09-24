@@ -6,11 +6,8 @@ const Navbar = () => {
         <a href="/">Home</a>
         <a
           href="/create"
-          style={
-            {
-              /* inline styles here */
-            }
-          }
+          /* inline styles here */
+          style={{}}
         >
           New Blog
         </a>
