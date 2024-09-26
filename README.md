@@ -24,13 +24,3 @@
 ### The React Router
 
 - installation - `npm install react-router-dom@5` (we're using version 5)
-
-### Notice
-
-- remove unnecessary files and components eg logo.svg, etc as shown in this project
-- We cannot output booleans and objects in the App.js file dynamically
-- `sfc` - basic starting emmet
-- opt to delete App.css and use index.css
-  - main editing area is javascript
-- index.css is global no need to import, app.css is specific
-- make sure to import a file to use it

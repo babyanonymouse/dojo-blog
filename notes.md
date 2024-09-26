@@ -2,6 +2,16 @@
 
 What i've learnt. referrals to the code.
 
+## Notice
+
+- remove unnecessary files and components eg logo.svg, etc as shown in this project
+- We cannot output booleans and objects in the App.js file dynamically
+- `sfc` - basic starting emmet
+- opt to delete App.css and use index.css
+  - main editing area is javascript
+- index.css is global no need to import, app.css is specific
+- make sure to import a file to use it
+
 ## React router
 
 1. the components are able to switch without the client contacting the server. eg:
