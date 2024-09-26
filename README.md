@@ -14,6 +14,7 @@
 - `npm install` - reisntall node-modules (if lost, deleted or any mod)
 - `npm run start` - start react server
 - `npx json-server --watch data/db.json --port:8800` - watch a database json file
+- enable scss compiler
 
 ### JSON Server
 

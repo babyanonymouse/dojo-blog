@@ -8,9 +8,11 @@ const useFetch = (url) => {
 
   // useEffect hook to fetch data/db.json data
   useEffect(() => {
+    // abort fetch if the component is unmounted
+    const abortCont = new AbortController();
     //setTimeout to simulate a delay
     setTimeout(() => {
-      fetch(url)
+      fetch(url, { signal: abortCont.signal })
         .then((res) => {
           if (!res.ok) {
             //checking if response is ok
@@ -25,10 +27,15 @@ const useFetch = (url) => {
         })
         //catching any error
         .catch((err) => {
-          changePending(false);
-          changeError(err.message);
+          if (err.name === "AbortError") {
+            console.log("fetch aborted");
+          } else {
+            changePending(false);
+            changeError(err.message);
+          }
         });
     }, 500); //delay of 500ms
+    return () => abortCont.abort(); //cleanup function
   }, [url]); //dependency array
 
   return { data, pending, error };
