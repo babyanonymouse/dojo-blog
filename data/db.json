@@ -2,13 +2,13 @@
   "blogs": [
     {
       "title": "My First Blog",
-      "body": "<h2>This is my first blog post</h2>. I'm so excited to start blogging!",
-      "author": "John Doe",
+      "body": "Hey everyone! I’m excited to share my first blog post with you. This marks the beginning of a new journey where I can express my thoughts, ideas, and experiences in a creative way. Writing has always been a passion of mine, and what better way to explore it than through a blog?/n <h3>Why I Started This Blog</h3> I decided to start this blog as a way to document my personal growth and share the lessons I’ve learned along the way. It’s a space where I can talk about what excites me—whether it’s technology, hobbies, or just everyday life experiences. My goal is to connect with like-minded individuals and create a platform where we can exchange ideas. <h3>What You'll Find Here</h3> This blog will cover a range of topics. I’m particularly passionate about tech, especially web development and programming. You’ll see posts on the tools and technologies I’m learning, tutorials, and tips for improving your skills. But it won’t just be about code. I also enjoy writing about personal growth, productivity, and creativity, so expect a little of everything./n <h3>About Me</h3> A quick introduction: I’m Samuel Lwanga, a [mention something about yourself, like your occupation or interests]. My journey into the world of technology has been both challenging and rewarding, and I’m eager to share what I’ve learned. I’m also a firm believer in lifelong learning and self-improvement, so I’ll likely share some thoughts on those topics too.",
+      "author": "Samuel Lwanga",
       "id": 1
     },
     {
       "title": "Opening Party!",
-      "body": "We're having a party to celebrate the opening of our new store. Come join us!",
+      "body": "We're hosting an opening party for our new office next week. Join us for food, drinks, and fun! Everyone is welcome to attend, so feel free to bring your friends and family. We can't wait to celebrate with you! <h2>Details</h2> Date: [mention the date] Time: [mention the time] Location: [mention the location] RSVP: [mention how to RSVP] We hope to see you there! Cheers, The Team <h3>PS</h3> Don't forget to bring your dancing shoes! We'll have a DJ playing all night long. It's going to be a blast! <h3>PPS</h3> If you have any dietary restrictions, please let us know in advance so we can accommodate your needs. Thanks!",
       "author": "Jane Doe",
       "id": 2
     },
@@ -38,7 +38,7 @@
     },
     {
       "title": "Disney Princess",
-      "body": "How to save the princess",
+      "body": "<h2>How to save the princess</h2>. Here are some tips for web dev",
       "author": "Mario",
       "id": 7
     }

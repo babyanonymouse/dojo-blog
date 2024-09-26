@@ -78,4 +78,10 @@
   border: 0;
   padding: 8px;
   cursor: pointer;
+}
+.blog-details article .blog-content h2,
+.blog-details article .blog-content h3,
+.blog-details article .blog-content h4 {
+  color: var(--black);
+  margin-top: 1rem;
 }/*# sourceMappingURL=index.css.map */
