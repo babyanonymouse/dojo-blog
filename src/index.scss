@@ -18,13 +18,18 @@
   }
   .links {
     margin-left: auto;
-  }
-  a {
-    margin-left: 16px;
-    text-decoration: none;
-    padding: 6px;
-    &:hover {
-      color: #f1356d;
+
+    a {
+      color: black;
+      margin-left: 16px;
+      text-decoration: none;
+      padding: 6px;
+      &:hover {
+        color: #f1356d;
+      }
+      &.active {
+        color: #f1356d;
+      }
     }
   }
 }

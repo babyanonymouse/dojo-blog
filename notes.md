@@ -13,3 +13,7 @@ What i've learnt. referrals to the code.
 
 1. adding `exact` attribute to make sure the paths on the browser are unique
 2. essential in `/` paths
+
+## Link
+
+1. intercepts server requests and loads the respective page/component on the browser
