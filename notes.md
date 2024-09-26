@@ -34,3 +34,7 @@ What i've learnt. referrals to the code.
 
 - when we click `home`, the data fetch process begins, but if we switch to `new blog` faster(before the fetch is complete), it brings an error since the data fetched cannot be displayed on an unmounted component
   - we have to use the abortcontroller to abort the fetch if the component is changed and still maintain the error messages
+
+### Route Parameters
+
+similar to the blog id, where each blog routes to the respective id, hence respective component

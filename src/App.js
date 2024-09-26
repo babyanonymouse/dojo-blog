@@ -3,6 +3,7 @@ import Home from "./Home";
 // importing BrowserRouter, Route, and Switch from react-router-dom
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./Create";
+import BlogDetails from "./BlogDetails";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
             </Route>
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/blogs/:id">
+              <BlogDetails />
             </Route>
           </Switch>
         </div>
