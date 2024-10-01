@@ -1,27 +1,22 @@
 # First React Project
 
--  Ref: Net Ninja(Youtube)
+- Ref: Net Ninja(Youtube)
 
 ## prerequisites
 
 - node (latest)
 - react dev tools browser extension
-- react snippets extension
+- react snippets vscode extension
 
 ## Commands
 
-- `npx create-react-app folder-name` - Create React Folder
 - `npm install` - reisntall node-modules (if lost, deleted or any mod)
-- `npm run start` - start react server
-- `npx json-server --watch data/db.json --port:8800` - watch a database json file
+- `npx json-server` - watch a database json file
 - `npm install react-markdown` - react markdown for blog scripts
-- enable scss compiler
+- installation - `npm install react-router-dom@5` The React Router (we're using version 5)
+- `npm run start` - start react server
 
 ### JSON Server
 
 - install JSON server locally
-  - `npx json-server --watch data/db.json --port 8800` - watch the server
-
-### The React Router
-
-- installation - `npm install react-router-dom@5` (we're using version 5)
+  - `npx json-server --watch data/db.json --port 8800` - start the server watch the server for changes
