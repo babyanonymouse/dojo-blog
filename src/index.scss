@@ -77,8 +77,10 @@
     background: var(--accent-color);
     color: var(--light-text);
     border: 0;
-    padding: 8px;
+    font-size: 1rem;
+    padding: 10px;
     cursor: pointer;
+    border-radius: 5px;
   }
   article {
     .blog-content {
@@ -97,29 +99,31 @@
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
-   label {
+  label {
     text-align: left;
     display: block;
-   }
-   h2 {
+  }
+  h2 {
     font-size: 20px;
     color: var(--accent-color);
     margin-bottom: 30px;
-   }
-   input, textarea, select {
+  }
+  input,
+  textarea,
+  select {
     width: 100%;
     padding: 6px 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
     box-sizing: border-box;
     display: block;
-   }
-   button {
+  }
+  button {
     background: var(--accent-color);
     color: var(--light-text);
     border: 0;
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
-   }
+  }
 }

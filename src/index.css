@@ -76,8 +76,10 @@
   background: var(--accent-color);
   color: var(--light-text);
   border: 0;
-  padding: 8px;
+  font-size: 1rem;
+  padding: 10px;
   cursor: pointer;
+  border-radius: 5px;
 }
 .blog-details article .blog-content h2,
 .blog-details article .blog-content h3,
@@ -100,7 +102,9 @@
   color: var(--accent-color);
   margin-bottom: 30px;
 }
-.create input, .create textarea, .create select {
+.create input,
+.create textarea,
+.create select {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;

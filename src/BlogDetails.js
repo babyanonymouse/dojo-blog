@@ -31,7 +31,7 @@ const BlogDetails = () => {
             className="blog-content"
             dangerouslySetInnerHTML={{ __html: blog.body }}
           ></div>
-          <button onClick={handleClick}>delete</button>
+          <button onClick={handleClick}>Delete</button>
         </article>
       )}
     </div>
