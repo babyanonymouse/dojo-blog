@@ -1,6 +1,6 @@
 # First React Project
 
-- learning React from Net Ninja(Youtube)
+-  Ref: Net Ninja(Youtube)
 
 ## prerequisites
 
