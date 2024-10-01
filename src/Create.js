@@ -6,7 +6,7 @@ const Create = () => {
   const [author, ChangeAuthor] = useState("mario");
 
   const handleSubmit = (e) => {
-    e.preventdefault();
+    e.preventDefault();
     const blog = { title, body, author };
     console.log(blog);
   };
