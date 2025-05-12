@@ -1,6 +1,6 @@
 # First React Project
 
-- Ref: Net Ninja(Youtube)
+- A tutorial code course from Net Ninja
 
 ## Pre-Requisites
 
