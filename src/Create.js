@@ -13,7 +13,7 @@ const Create = () => {
     const blog = { title, body, author };
     ChangeIsPending(true);
 
-    fetch("http://localhost:8800/blogs", {
+    fetch(`${process.env.REACT_APP_API_URL}/blogs`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),
