@@ -13,7 +13,7 @@ const Create = () => {
     const blog = { title, body, author };
     ChangeIsPending(true);
 
-    fetch(`${process.env.REACT_APP_API_URL}/blogs`, {
+    fetch(`${import.meta.env.VITE_API_URL}/blogs`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),

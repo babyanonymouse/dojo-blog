@@ -1,13 +1,12 @@
 // usestate and useffect hook
-import Bloglist from "./Bloglist";
 import useFetch from "./useFetch";
-
+import Bloglist from "./BlogList"
 const Home = () => {
   const {
     data: blogs,
     pending,
     error,
-  } = useFetch(`${process.env.REACT_APP_API_URL}/blogs`);
+  } = useFetch(`${import.meta.env.VITE_API_URL}/blogs`);
 
   return (
     <div className="home">

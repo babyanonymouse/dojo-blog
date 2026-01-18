@@ -8,11 +8,11 @@ const BlogDetails = () => {
     data: blog,
     pending,
     error,
-  } = useFetch(`${process.env.REACT_APP_API_URL}/blogs/${id}`); //using custom hook
+  } = useFetch(`${import.meta.env.VITE_API_URL}/blogs/${id}`); //using custom hook
   const history = useHistory();
 
   const handleClick = () => {
-    fetch(`${process.env.REACT_APP_API_URL}/blogs/${blog.id}`, {
+    fetch(`${import.meta.env.VITE_API_URL}/blogs/${blog.id}`, {
       method: "DELETE",
     }).then(() => {
       history.push("/");
