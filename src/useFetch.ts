@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 // custom hooks. should start with "use"
-const useFetch = (url) => {
+const useFetch = <T>(url: string) => {
   // using the useState hook to create a state variable
-  const [data, changeData] = useState(null);
+  const [data, changeData] = useState<T | null>(null);
   const [pending, changePending] = useState(true);
-  const [error, changeError] = useState(null);
+  const [error, changeError] = useState<string | null>(null);
 
   // useEffect hook to fetch data/db.json data
   useEffect(() => {

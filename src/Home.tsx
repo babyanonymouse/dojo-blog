@@ -1,6 +1,6 @@
 // usestate and useffect hook
-import useFetch from "./useFetch";
-import Bloglist from "./BlogList"
+import useFetch from "./useFetch.ts";
+import Bloglist from "./BlogList.tsx";
 const Home = () => {
   const {
     data: blogs,
