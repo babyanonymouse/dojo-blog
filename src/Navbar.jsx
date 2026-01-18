@@ -5,8 +5,8 @@ const Navbar = () => {
     <nav className="navbar">
       <h1>The Dojo Blog</h1>
       <div className="links">
-        <NavLink exact to="/" activeClassName="active">Home</NavLink>
-        <NavLink to="/create" activeClassName="active">Add a New Blog</NavLink>
+        <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
+        <NavLink to="/create" className={({ isActive }) => isActive ? "active" : ""}>Add a New Blog</NavLink>
       </div>
     </nav>
   );

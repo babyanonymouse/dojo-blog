@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import useFetch from "./useFetch";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { useNavigate } from "react-router-dom";
 
 const BlogDetails = () => {
   const { id } = useParams();
@@ -9,13 +9,13 @@ const BlogDetails = () => {
     pending,
     error,
   } = useFetch(`${import.meta.env.VITE_API_URL}/blogs/${id}`); //using custom hook
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleClick = () => {
     fetch(`${import.meta.env.VITE_API_URL}/blogs/${blog.id}`, {
       method: "DELETE",
     }).then(() => {
-      history.push("/");
+      navigate("/");
     });
   };
 
